@@ -52,10 +52,7 @@ function varargout = roipoly(varargin)
 %   If ROIPOLY is called with no output arguments, the resulting image is
 %   displayed in a new figure.
 %
-%   Class Support
-%   -------------
-%   The input image I can be uint8, uint16, int16, single or double.  The
-%   output image BW is logical. All other inputs and outputs are double.
+%  
 %
 %   Remarks
 %   -------
@@ -75,7 +72,6 @@ function varargout = roipoly(varargin)
 %
 %   See also IMPOLY, POLY2MASK, REGIONFILL, ROIFILT2, ROICOLOR.
 
-%   Copyright 1993-2014 The MathWorks, Inc.
 
 [xdata,ydata,num_rows,num_cols,xi,yi,placement_cancelled] = parse_inputs(varargin{:});
 
